@@ -39,7 +39,6 @@
     "browser-bunyan": "^1.6.3"
   },
   "devDependencies": {
-    "tsconfig-paths": "^3.12.0",
     "@types/bunyan": "^1.8.8"
   },
   "engines": {
