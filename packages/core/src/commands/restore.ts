@@ -2,14 +2,14 @@ import { format } from 'date-fns';
 import { basename, join } from 'path';
 import { Command } from 'commander';
 
-import { expandBZIP2 } from '../utils/tar';
-import { IStorageServiceClient } from '../interfaces/storage-service-client';
+import { expandBZIP2 } from '@/core/utils/tar';
+import { IStorageServiceClient } from '@/core/interfaces/storage-service-client';
 import {
   addStorageServiceClientOptions,
   addStorageServiceClientGenerateHook,
   ICommonCLIOption,
 } from './common';
-import loggerFactory from '../services/logger';
+import loggerFactory from '@/core/services/logger';
 
 const logger = loggerFactory('mongodb-awesome-backup');
 const tmp = require('tmp');

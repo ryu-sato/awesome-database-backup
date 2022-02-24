@@ -1,10 +1,10 @@
-import { StorageProviderType, IStorageServiceClient } from '../interfaces/storage-service-client';
-import { ICommonCLIOption } from '../commands/common';
+import { StorageProviderType, IStorageServiceClient } from '@/core/interfaces/storage-service-client';
+import { ICommonCLIOption } from '@/core/commands/common';
 import {
   configExistS3, createConfigS3,
 } from './provider-config-factory';
-import { S3ServiceClient } from '../storage-service-clients/s3';
-import { GCSServiceClient } from '../storage-service-clients/gcs';
+import { S3ServiceClient } from '@/core/storage-service-clients/s3';
+import { GCSServiceClient } from '@/core/storage-service-clients/gcs';
 
 export function storageProviderType(target: URL): StorageProviderType|undefined {
   const typeMap: Record<string, StorageProviderType> = {

@@ -3,8 +3,8 @@ import { basename, join } from 'path';
 import { Command } from 'commander';
 import axios from 'axios';
 import axiosRetry from 'axios-retry';
-import { compressBZIP2 } from '../utils/tar';
-import { IStorageServiceClient } from '../interfaces/storage-service-client';
+import { compressBZIP2 } from '@/core/utils/tar';
+import { IStorageServiceClient } from '@/core/interfaces/storage-service-client';
 import {
   addStorageServiceClientOptions,
   addStorageServiceClientGenerateHook,

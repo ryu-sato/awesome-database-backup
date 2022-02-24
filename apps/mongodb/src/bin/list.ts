@@ -4,7 +4,7 @@
  * Execute with --help to see usage instructions.
  */
 import { ListCommand } from '@awesome-backup/core';
-import { PACKAGE_VERSION } from '../config/version';
+import { PACKAGE_VERSION } from '@/mongodb/config/version';
 
 const listCommand = new ListCommand();
 

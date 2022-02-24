@@ -4,7 +4,7 @@
  * Execute with --help to see usage instructions.
  */
 import { PruneCommand } from '@awesome-backup/core';
-import { PACKAGE_VERSION } from '../config/version';
+import { PACKAGE_VERSION } from '@/postgresql/config/version';
 
 const pruneCommand = new PruneCommand();
 

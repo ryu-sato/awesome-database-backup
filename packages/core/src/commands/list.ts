@@ -1,11 +1,11 @@
 import { EOL } from 'os';
 import { Command } from 'commander';
-import { IStorageServiceClient } from '../interfaces/storage-service-client';
+import { IStorageServiceClient } from '@/core/interfaces/storage-service-client';
 import {
   addStorageServiceClientOptions,
   addStorageServiceClientGenerateHook,
 } from './common';
-import loggerFactory from '../services/logger';
+import loggerFactory from '@/core/services/logger';
 
 const logger = loggerFactory('mongodb-awesome-core');
 

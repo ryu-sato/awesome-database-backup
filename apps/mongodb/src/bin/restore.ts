@@ -5,7 +5,7 @@
  */
 import { exec } from 'child_process';
 import { RestoreCommand } from '@awesome-backup/core';
-import { PACKAGE_VERSION } from '../config/version';
+import { PACKAGE_VERSION } from '@/mongodb/config/version';
 
 async function restoreMongoDB(sourcePath: string, userSpecifiedOption?: string): Promise<{ stdout: string, stderr: string }> {
   return new Promise((resolve, reject) => {
