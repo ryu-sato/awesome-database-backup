@@ -1,6 +1,6 @@
 {
   "name": "@awesome-backup/custom-changelog",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Custom changelog of changesets",
   "author": "Ryu Sato <ryu@weseek.co.jp>",
   "license": "MIT",
@@ -31,7 +31,7 @@
     "regex-parser": "^2.2.11"
   },
   "devDependencies": {
-    "@awesome-backup/tsconfig": "^0.0.1",
+    "@awesome-backup/tsconfig": "^0.0.2",
     "@changesets/types": "^5.0.0"
   },
   "engines": {
