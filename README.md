@@ -1,3 +1,6 @@
+This repository will not be updated because archived.
+See [weseek/awesome-database-backup](https://github.com/weseek/awesome-database-backup.git).
+
 [![Application test](https://github.com/ryu-sato/awesome-database-backup/actions/workflows/test.yaml/badge.svg)](https://github.com/ryu-sato/awesome-database-backup/actions/workflows/test.yaml)
 [![Container test](https://github.com/ryu-sato/awesome-database-backup/actions/workflows/container-test.yaml/badge.svg)](https://github.com/ryu-sato/awesome-database-backup/actions/workflows/container-test.yaml)
 
